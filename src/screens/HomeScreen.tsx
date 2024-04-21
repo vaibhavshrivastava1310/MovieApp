@@ -39,7 +39,6 @@ const getNowPlayingMoviesList = async () => {
     );
   }
 };
-// Main Appp
 const getUpcomingMoviesList = async () => {
   try {
     let response = await fetch(upcomingMovies);
